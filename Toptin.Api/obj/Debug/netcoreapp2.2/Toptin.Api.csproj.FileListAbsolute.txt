@@ -1,0 +1,14 @@
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\bin\Debug\netcoreapp2.2\Toptin.Api.deps.json
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\bin\Debug\netcoreapp2.2\Toptin.Api.runtimeconfig.json
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\bin\Debug\netcoreapp2.2\Toptin.Api.runtimeconfig.dev.json
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\bin\Debug\netcoreapp2.2\Toptin.Api.dll
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\bin\Debug\netcoreapp2.2\Toptin.Api.pdb
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.csprojAssemblyReference.cache
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.csproj.CoreCompileInputs.cache
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.RazorAssemblyInfo.cache
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.RazorAssemblyInfo.cs
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.AssemblyInfoInputs.cache
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.AssemblyInfo.cs
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.dll
+C:\Users\Amir\Desktop\pro\toptin\Toptin.Api\obj\Debug\netcoreapp2.2\Toptin.Api.pdb

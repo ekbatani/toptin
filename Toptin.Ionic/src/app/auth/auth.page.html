@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ورود</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <!-- <ion-card-title>ورود</ion-card-title> -->
+      <ion-card-subtitle>برای ورود کد شش رقمی ارسالی را وارد نمایید</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <form *ngIf="!loggedIn()" #loginForm="ngForm" (ngSubmit)="login()">
+        <ion-input type="text" name="phone" placeholder="شماره همراه" required [(ngModel)]="model.phone"></ion-input>
+        <ion-input type="password" name="password" placeholder="کد شش رقمی ارسالی" required [(ngModel)]="model.password"></ion-input>
+        <ion-button [disabled]="!loginForm.valid" type="submit" expand="block">ورود</ion-button>        
+      </form>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
