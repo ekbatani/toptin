@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class BrandService {
 
-  baseUrl = environment.apiUrl + 'auth/';
+  baseUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 

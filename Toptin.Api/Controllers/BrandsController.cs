@@ -23,7 +23,7 @@ namespace Toptin.Api.Controllers
             _IBrand = iBrand;
         }
 
-        // GET: api/Brands
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<Brand>> GetBrand()
 
@@ -31,7 +31,7 @@ namespace Toptin.Api.Controllers
             return await _IBrand.GetAllAsync();
         }
 
-        // GET: api/Brands/5
+        [AllowAnonymous]     
         [HttpGet("{id}")]
         public async Task<ActionResult<Brand>> GetBrand(int id)
         {

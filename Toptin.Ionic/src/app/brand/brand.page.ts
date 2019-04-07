@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BrandService } from '../_services/brand.service';
+import { Brand } from '../_models/brand';
 
 @Component({
   selector: 'app-brand',
@@ -8,7 +9,7 @@ import { BrandService } from '../_services/brand.service';
 })
 export class BrandPage implements OnInit {
 
-  brands: any = {};
+  brands: Brand[];
 
   constructor(private brandService: BrandService) { }
 
@@ -17,9 +18,8 @@ export class BrandPage implements OnInit {
   }
 
   getBrands() {
-    this.brandService.getBrands().subscribe((brands) => {
+    this.brandService.getBrands().subscribe((brands: Brand[]) => {
       this.brands = brands;
-      console.log(this.brands);
     }, error => {
       console.log(error);
     });
